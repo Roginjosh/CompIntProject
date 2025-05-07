@@ -1,3 +1,5 @@
+# made by following the tutorial at https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+
 import torch
 import torch.utils.data.dataloader
 import torchvision

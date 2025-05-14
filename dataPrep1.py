@@ -11,10 +11,7 @@ for name in birdTypes:
     files = filenames[0]
     for file in files:
         imgPath = os.path.join(root, name, file)
-        goalPath = os.path.join('.\\birds', name+file)
-        with open(imgPath, 'rb') as src:
-            with open(goalPath, 'wb') as dst:
+        goalPath = os.path.join(".\\birds", name + file)
+        with open(imgPath, "rb") as src:
+            with open(goalPath, "wb") as dst:
                 dst.write(src.read())
-
-
-

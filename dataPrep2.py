@@ -19,7 +19,7 @@ birds = pd.read_csv("./birds/birds.csv")
 
 birds["filepaths"] = birds.apply(buildNewPath, axis=1) # apply above function
 
-# rename all Blue_Tits to BlueTits
+# rename all Blue_Tit to BlueTit
 birds["filepaths"] = birds["filepaths"].str.replace("Blue_Tit", "BlueTit", case=False)
 
 # print(birds.shape[0])

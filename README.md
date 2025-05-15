@@ -1,6 +1,8 @@
 # Project README
 ## *Josh Rogge*
 ### How to Load the Environment
+This is a Markdown File, you can press ctrl + k and then press v to view this file formatted all prettily on VSCode
+
 *I used **Git Bash** on **Windows 10**.*
 
 ### To set up the Conda environment, run:
